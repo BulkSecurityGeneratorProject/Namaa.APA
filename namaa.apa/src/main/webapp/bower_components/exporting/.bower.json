@@ -1,0 +1,14 @@
+{
+  "name": "exporting",
+  "_cacheHeaders": {
+    "ETag": "W/\"4691260fd205ff4f3c9185b256536ab3\"",
+    "Last-Modified": "Mon, 21 Dec 2015 09:44:50 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:W/\"4691260",
+  "main": "index.js",
+  "_source": "http://code.highcharts.com/modules/exporting.js",
+  "_target": "*",
+  "_originalSource": "http://code.highcharts.com/modules/exporting.js",
+  "_direct": true
+}

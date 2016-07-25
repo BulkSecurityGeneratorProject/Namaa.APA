@@ -1,0 +1,51 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "owner",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "chickpeas",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "beans",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "cowpea",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "lathyrus",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "dateAdded",
+            "fieldType": "datetime"
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "watered",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 7,
+            "fieldName": "nonWatered",
+            "fieldType": "Double"
+        }
+    ],
+    "changelogDate": "20150827091259",
+    "dto": "no",
+    "pagination": "no"
+}

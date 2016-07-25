@@ -1,0 +1,23 @@
+{
+    "namaaApaApp": {
+        "user_Resources" : {
+            "home": {
+                "title": "User_Resourcess",
+                "createLabel": "Créer un nouveau User_Resources",
+                "createOrEditLabel": "Créer ou éditer un User_Resources"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le User_Resources {{ id }} ?"
+            },
+            "detail": {
+                "title": "User_Resources"
+            },
+            "created_Date": "Created_Date",
+            "owner": "owner",
+            "fruit": "fruit",
+            "olive": "olive",
+            "oil": "oil"
+        }
+    }
+}
+

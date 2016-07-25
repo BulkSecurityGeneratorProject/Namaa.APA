@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "مجموع الحصص [<b>{{username}}</b>]",
+        "table": {
+            "ipaddress": "عنوان IP",
+            "useragent": "وكيل المستخدم",
+            "date": "التاريخ",
+            "button": "إبطال"
+        },
+        "messages": {
+            "success": "<strong>تم ابطال الحصة</strong>",
+            "error": "<strong>خطــــأ</strong> لا يمكن ابطال الحصة"
+        }
+    }
+}

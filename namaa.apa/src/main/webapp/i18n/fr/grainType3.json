@@ -1,0 +1,29 @@
+{
+    "namaaApaApp": {
+        "grainType3" : {
+            "home": {
+                "title": "Add your resource of Chickpeas-Beans-Cowpea-Lathyrus here:",
+                "createLabel": "Add the quantity of Chickpeas-Beans-Cowpea-Lathyrus",
+                "createOrEditLabel": "Create or edit your quantity of Chickpeas-Beans-Cowpea-Lathyrus"
+            },
+            "created": "A new quantity of Chickpeas-Beans-Cowpea-Lathyrus is created. Operation Number : {{ param }}",
+            "updated": "A  quantity of Chickpeas-Beans-Cowpea-Lathyrus is updated. Operation Number :  {{ param }}",
+            "deleted": "A  quantity of Chickpeas-Beans-Cowpea-Lathyrus is deleted. Operation Number : {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete the quantity of Chickpeas-Beans-Cowpea-Lathyrus for the Operation Number : {{ id }}?"
+            },
+            "detail": {
+                "title": "Chickpeas-Beans-Cowpea-Lathyrus : Opertaion Number :"
+            },
+            "chickpeas": "Chickpeas",
+            "beans": "Beans",
+            "cowpea": "Cowpea",
+            "lathyrus": "Lathyrus",
+            "dateAdded": "Date d'Ajout",
+            "watered": "Arrosés",
+            "nonWatered": "Non arrosés",
+            "owner": "Propriétaire"
+        }
+    }
+}
+

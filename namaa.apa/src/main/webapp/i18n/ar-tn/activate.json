@@ -1,0 +1,9 @@
+{
+    "activate": {
+        "title": "تفعيـــــل",
+        "messages": {
+            "success": "<strong>لقد تم تفعيــــل الحساب.</strong> الرجاء <a href=\"#/login\">الولـــــج</a>.",
+            "error": "<strong>خطآ في تفعيل الحساب.</strong> الرجاء إعادة التسجيل."
+        }
+    }
+}

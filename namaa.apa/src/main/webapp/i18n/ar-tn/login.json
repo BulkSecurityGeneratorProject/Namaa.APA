@@ -1,0 +1,19 @@
+{
+    "login": {
+        "title": "تسجيل الدخول",
+        "form": {
+            "password": "كلمــــة السر",
+            "password.placeholder": "ادخل كلمــــة السر",
+            "rememberme": "تسجيل الدخول التلقائي",
+            "button":"تسجيل الدخول"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>خطأ في تسجيل الدخول!</strong>  يرجى التحقق من بيانات الدخول الخاصة بك وحاول مرة أخرى ."
+            }
+        },
+        "password" : {
+            "forgot": " هل نسيت كلمة المرور؟"
+        }
+    }
+}

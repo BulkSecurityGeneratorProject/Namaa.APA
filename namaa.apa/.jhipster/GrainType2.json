@@ -1,0 +1,41 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "owner",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "wheat",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "barley",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "dateAdded",
+            "fieldType": "datetime"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "watered",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "nonWatered",
+            "fieldType": "Double"
+        }
+    ],
+    "changelogDate": "20150827091131",
+    "dto": "no",
+    "pagination": "no"
+}

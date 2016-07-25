@@ -1,0 +1,29 @@
+{
+    "namaaApaApp": {
+        "grainType1" : {
+            "home": {
+                "title": "Add your resource of Spelled-Corn-Millet here:",
+                "createLabel": "Add the quantity of Spelled-Corn-Millet",
+                "createOrEditLabel": "Create or edit your quantity of Spelled-Corn-Millet"
+            },
+            "created": "A new quantity of Spelled-Corn-Millet is created. Operation Number : {{ param }}",
+            "updated": "A  quantity of Spelled-Corn-Millet is updated. Operation Number :  {{ param }}",
+            "deleted": "A  quantity of Spelled-Corn-Millet is deleted. Operation Number : {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete the quantity of Spelled-Corn-Millet for the Operation Number : {{ id }}?"
+            },
+            "detail": {
+                "title": "Spelled-Corn-Millet : Opertaion Number :"
+            },
+            "spelt": "Spelt",
+            "corn": "Corn",
+            "millet": "Millet",
+            "dateAdded": "Date d'Ajout",
+            "watered": "Arrosés",
+            "nonWatered": "Non arrosés",
+            "owner": "Propriétaire"
+
+        }
+    }
+}
+

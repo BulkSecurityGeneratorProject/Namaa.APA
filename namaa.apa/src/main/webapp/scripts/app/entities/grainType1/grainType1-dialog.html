@@ -1,0 +1,62 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myGrainType1Label" translate="namaaApaApp.grainType1.home.createOrEditLabel">Create or edit a GrainType1</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="grainType1.id" readonly>
+        </div>
+
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType1.spelt" for="field_spelt">Spelt</label>
+            <input type="number" class="form-control" name="spelt" id="field_spelt"
+                    ng-model="grainType1.spelt"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType1.corn" for="field_corn">Corn</label>
+            <input type="number" class="form-control" name="corn" id="field_corn"
+                    ng-model="grainType1.corn"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType1.millet" for="field_millet">Millet</label>
+            <input type="number" class="form-control" name="millet" id="field_millet"
+                    ng-model="grainType1.millet"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType1.watered" for="field_watered">watered</label>
+            <input type="number" class="form-control" name="watered" id="field_watered"
+                   ng-model="grainType1.watered"
+                >
+
+        </div>
+
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType1.nonWatered" for="field_nonWatered">nonWatered</label>
+            <input type="number" class="form-control" name="nonWatered" id="field_nonWatered"
+                   ng-model="grainType1.nonWatered"
+                >
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || editForm.$submitted" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

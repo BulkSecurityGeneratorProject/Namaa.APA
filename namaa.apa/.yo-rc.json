@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "baseName": "namaa_apa",
+    "packageName": "com.apa.namaa",
+    "packageFolder": "com/apa/namaa",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": true,
+    "rememberMeKey": "e5a58fe5cfa869a2c2078f84640d7798d52832e5",
+    "useSass": false
+  }
+}

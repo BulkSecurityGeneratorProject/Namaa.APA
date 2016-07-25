@@ -1,0 +1,122 @@
+{"global": {
+        "title": "نمــــــــــــاء",
+        "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
+        "menu": {
+            "home":"الصفحة الرئيسية",
+            "entities": {
+                "main":"المحاصيل الزراعية",
+                "fruit":"الغلال",
+                "olive":"الزيتون",
+                "oil":"السمسم-القرطم-الفجل",
+                "grainType1":"العلس-الذرة-الدخن",
+                "grainType2":"القمح والشعير",
+                "grainType3":"الحمص-الفول-اللوبيا-الجلبان",
+                "additionalEntity": "JHipster will add additional entities here (do not translate!)"
+            },
+            "zakat":{
+                "main":"زكاتــــــــك",
+                "incomes":"مراجعة الموارد",
+                "calcul":"حساب الزكاة"
+            },
+            "account": {
+                "main": "الحساب",
+                "settings": "الاعدادات",
+                "password": "كلمــــة السر",
+                "sessions": "الحصص",
+                "login": "دخــــول",
+                "logout": "مغادرة",
+                "register": "تسجيـــــل"
+            },
+
+            "admin": {
+                "main": "Administration",
+                "tracker": "User tracker",
+                "metrics": "Metrics",
+                "health": "Health",
+                "configuration": "Configuration",
+                "logs": "Logs",
+                "audits": "Audits",
+                "apidocs": "API",
+                "database": "Database"
+            },
+            "language": "اللغة"
+        },
+        "form": {
+            "username": "اسم المستخدم",
+            "username.placeholder": "ادخل اسم المستخدم الخاص بك" ,
+            "newpassword": "كلمــــة  المرور",
+            "newpassword.placeholder":"ادخل كلمــــة المرور",
+            "confirmpassword":" تاكيد كلمة المرور",
+            "confirmpassword.placeholder":"ادخل تاكيد كلمة المرور ",
+            "email": "البريد الإلكتروني",
+            "email.placeholder": "ادخل البريد الإلكتروني"
+        },
+        "messages": {
+            "info": {
+                "authenticated": "If you want to <a href=\"#/login\">authenticate</a>, you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\").",
+                "register": "أنت لا تملك حسابا حتى الآن؟ <a href=\"#/register\"> تسجيل حساب جديد </a>"
+            },
+            "error": {
+                "dontmatch" : " كلمة السر وتأكيدها لا تتطابق!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "كلمة المرور اجباريـــة",
+                    "minlength": "لا ايمكن  أن تكون كلمة السر اقل من 5 احرف",
+                    "maxlength": "لا يمكن  أن تكون كلمة السر أطول من 50 حرفا",
+                    "strength": "قوة كلمة المرور:"
+                },
+                "confirmpassword": {
+                    "required": "مطلوب تأكيد كلمة السر الخاصة بك.",
+                    "minlength":"تأكيـــد : لا ايمكن  أن تكون كلمة السر اقل من 5 احرف",
+                    "maxlength":"تأكيـــد : لا يمكن  أن تكون كلمة السر أطول من 50 حرفا"
+                },
+                "email": {
+                    "required": ".البريد الإلكتروني اجباري",
+                    "invalid": "البريد الإلكتروني غير صالح.",
+                    "minlength": "لا ايمكن  أن يكون  البريد الإلكتروني اقل من 5 احرف",
+                    "maxlength":"لا يمكن  أن يكون  البريد الإلكتروني أطول من 50 حرفا"
+                }
+            }
+        },
+        "field": {
+            "id" : "رقم العملية"
+        }
+    },
+    "entity": {
+        "action": {
+            "addblob": "إضافة BLOB",
+            "addimage": "إضافة صورة",
+            "back": "الرجـــوع الى الوراء",
+            "cancel": "إلغاء",
+            "delete": "حذف",
+            "edit": "تعديـــل",
+            "save": "حفـــــــــظ",
+            "view": "مشاهـــــدة"
+        },
+        "detail": {
+            "field": "صنف المحصــــــــول",
+            "value": "قيـــــمة المحصــــــول"
+        },
+        "delete": {
+            "title": "تأكىــــــد عملية الحذف"
+        },
+        "validation": {
+            "required":".هذا الحقل اجباري",
+            "minlength": "هذا الحقل مطلوب أن يكون على الأقل {{min}}  حرفا.",
+            "maxlength": "هذا الحقل لا يمكن أن تكون أطول من {{max}} حرفا.",
+            "min": "يجب أن يكون هذا الحقل أكثر من {{min}}.",
+            "max": "هذا الحقل لا يمكن أن تكون أكثر من {{max}} كحد أقصى.",
+            "minbytes": "يجب أن يكون هذا الحقل أكثر من {{min}} بايت.",
+            "maxbytes": "هذا الحقل لا يمكن أن تكون أكثر من {{max}} كحد أقصى بايت.",
+            "pattern": "هذا الحقل يجب أن يتبع هذا النمط {{pattern}}.",
+            "number": "يجب أن يكون هذا الحقل عددا.",
+            "datetimelocal":".يجب أن يكون هذا الحقل تاريخا "
+        }
+    },
+    "error" : {
+        "serverNotReachable" : "خطأ في الاتصال بالخادم",
+        "NotNull" :" لا يمكن أن يكون هذا الحقل {{fieldName}} فارغا! "
+    },
+    "footer": "This is your footer"
+}

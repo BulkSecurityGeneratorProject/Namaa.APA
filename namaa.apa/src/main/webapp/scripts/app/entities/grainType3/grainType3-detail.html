@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="namaaApaApp.grainType3.detail.title">GrainType3</span> {{grainType3.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType3.chickpeas">Chickpeas</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType3.chickpeas}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType3.beans">Beans</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType3.beans}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType3.cowpea">Cowpea</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType3.cowpea}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType3.lathyrus">Lathyrus</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType3.lathyrus}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType3.owner">owner</span>
+                </td>
+                <td>
+                    {{grainType3.owner.firstName+' '+grainType3.owner.lastName }}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

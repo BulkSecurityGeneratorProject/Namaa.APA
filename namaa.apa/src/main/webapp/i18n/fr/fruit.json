@@ -1,0 +1,27 @@
+{
+    "namaaApaApp": {
+        "fruit" : {
+            "home": {
+                "title": "Add your resource of Fruits here:",
+                "createLabel": "Add the quantity of Fruits",
+                "createOrEditLabel": "Create or edit your quantity of Fruits"
+            },
+            "created": "A new quantity of Fruits is created. Operation Number : {{ param }}",
+            "updated": "A  quantity of Fruits is updated. Operation Number :  {{ param }}",
+            "deleted": "A  quantity of Fruits is deleted. Operation Number : {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete the quantity of Fruits for the Operation Number : {{ id }}?"
+            },
+            "detail": {
+                "title": "Fruits : Opertaion Number :"
+            },
+            "grapes": "Grapes Quantity",
+            "dates": "Dates Quantity",
+            "dateAdded": "Date d'Ajout",
+            "watered": "Arrosés",
+            "nonWatered": "Non arrosés",
+            "owner": "Propriétaire"
+        }
+    }
+}
+

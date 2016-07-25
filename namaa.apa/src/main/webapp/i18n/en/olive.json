@@ -1,0 +1,25 @@
+{
+    "namaaApaApp": {
+        "olive" : {
+            "home": {
+                "title": "Olives",
+                "createLabel": "Create a new Olive",
+                "createOrEditLabel": "Create or edit a Olive"
+            },
+            "created": "A new Olive is created with identifier {{ param }}",
+            "updated": "A Olive is updated with identifier {{ param }}",
+            "deleted": "A Olive is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Olive {{ id }}?"
+            },
+            "detail": {
+                "title": "Olive"
+            },
+            "oliveOil": "OliveOil",
+            "dateAdded": "Added Date",
+            "watered": "Watered",
+            "nonWatered": "Not Watered",
+            "owner": "Owner"
+        }
+    }
+}

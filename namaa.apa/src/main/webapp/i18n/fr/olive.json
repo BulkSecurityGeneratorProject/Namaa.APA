@@ -1,0 +1,24 @@
+{
+    "namaaApaApp": {
+        "olive" : {
+            "home": {
+                "title": "Olives",
+                "createLabel": "Créer un nouveau Olive",
+                "createOrEditLabel": "Créer ou éditer un Olive"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Olive {{ id }} ?"
+            },
+            "detail": {
+                "title": "Olive"
+            },
+            "oliveOil": "OliveOil",
+            "dateAdded": "DateAdded",
+            "dateAdded": "Date d'Ajout",
+            "watered": "Arrosés",
+            "nonWatered": "Non arrosés",
+            "owner": "Propriétaire"
+        }
+    }
+}
+

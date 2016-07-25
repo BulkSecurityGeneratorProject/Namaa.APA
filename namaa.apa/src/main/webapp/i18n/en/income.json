@@ -1,0 +1,13 @@
+{
+    "namaaApaApp": {
+        "income" : {
+            "home": {
+                "title": "Incomes"
+            },
+            "total":"Total",
+
+            "zakat":"Your Zakat Portion"
+        }
+    }
+}
+

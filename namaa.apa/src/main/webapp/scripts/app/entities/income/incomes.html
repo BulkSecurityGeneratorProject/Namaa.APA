@@ -1,0 +1,43 @@
+<div>
+
+    <h2 translate="global.menu.zakat.incomes"></h2>
+    <jh-alert></jh-alert>
+
+    <div class="container">
+        <div id="charts" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto">
+
+        </div>
+        <div class="table-responsive  col-lg-10">
+            <div ng-repeat="(income, values) in incomes">
+                <div ng-repeat="(key,value) in values">
+                    <div ng-repeat="(k,val) in value">
+                        <div class="container-fluid">
+                            <div ng-show="k !== 'id' && k!=='owner'  && k!=='watered'  && k!=='nonWatered'" class="row">
+                                <div class="label-warning  col-lg-2"><span
+                                    translate="global.menu.entities.{{income}}"></span>
+                                </div>
+                                <div class="label-info  col-lg-4">
+                                    <span translate="namaaApaApp.{{income}}.{{k}}"></span>
+                                </div>
+                                <div ng-show="k !== 'dateAdded' "  class="label-success  col-lg-4">{{val | number }}</div>
+                                <div ng-show="k === 'dateAdded' "  class="label-warning  col-lg-4">{{val | date:'medium'}}</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="label-warning  col-lg-5"> <span translate="namaaApaApp.income.total"></span></div>
+            <div class="label-success  col-lg-5"> {{ incomes.total }}</div>
+        </div>
+            <div class="row">
+                <div class="label-warning  col-lg-5"> <span translate="namaaApaApp.income.zakat"></span></div>
+                <div class="label-success  col-lg-5"> {{ incomes.zakat }}</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>

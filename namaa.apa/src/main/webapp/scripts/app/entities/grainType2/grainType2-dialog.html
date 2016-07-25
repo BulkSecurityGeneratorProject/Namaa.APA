@@ -1,0 +1,55 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myGrainType2Label" translate="namaaApaApp.grainType2.home.createOrEditLabel">Create or edit a GrainType2</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="grainType2.id" readonly>
+        </div>
+
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType2.wheat" for="field_wheat">Wheat</label>
+            <input type="number" class="form-control" name="wheat" id="field_wheat"
+                    ng-model="grainType2.wheat"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType2.barley" for="field_barley">Barley</label>
+            <input type="number" class="form-control" name="barley" id="field_barley"
+                    ng-model="grainType2.barley"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType2.watered" for="field_watered">watered</label>
+            <input type="number" class="form-control" name="watered" id="field_watered"
+                   ng-model="grainType2.watered"
+                >
+
+        </div>
+
+        <div class="form-group">
+            <label translate="namaaApaApp.grainType2.nonWatered" for="field_nonWatered">nonWatered</label>
+            <input type="number" class="form-control" name="nonWatered" id="field_nonWatered"
+                   ng-model="grainType2.nonWatered"
+                >
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || editForm.$submitted" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

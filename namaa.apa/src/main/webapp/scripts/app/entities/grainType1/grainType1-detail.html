@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="namaaApaApp.grainType1.detail.title">GrainType1</span> {{grainType1.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType1.spelt">Spelt</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType1.spelt}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType1.corn">Corn</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType1.corn}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType1.millet">Millet</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{grainType1.millet}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="namaaApaApp.grainType1.owner">owner</span>
+                </td>
+                <td>
+                    {{grainType1.owner.firstName+' '+grainType1.owner.lastName }}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

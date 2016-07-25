@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150826173318_added_entity_Fruit.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150827090653_added_entity_Olive.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150827090823_added_entity_Oil.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150827091018_added_entity_GrainType1.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150827091131_added_entity_GrainType2.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150827091259_added_entity_GrainType3.xml" relativeToChangelogFile="false"/>
+   <!-- JHipster will add liquibase changelogs here -->
+</databaseChangeLog>

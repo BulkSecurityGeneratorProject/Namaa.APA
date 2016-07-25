@@ -1,0 +1,28 @@
+{
+    "namaaApaApp": {
+        "oil" : {
+            "home": {
+                "title": "Add your resource of Sesame-Safflower-Radish here:",
+                "createLabel": "Add the quantity of Sesame-Safflower-Radish",
+                "createOrEditLabel": "Create or edit your quantity of Sesame-Safflower-Radish"
+            },
+            "created": "A new quantity of Sesame-Safflower-Radish is created. Operation Number : {{ param }}",
+            "updated": "A  quantity of Sesame-Safflower-Radish is updated. Operation Number :  {{ param }}",
+            "deleted": "A  quantity of Sesame-Safflower-Radish is deleted. Operation Number : {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete the quantity of Sesame-Safflower-Radish for the Operation Number : {{ id }}?"
+            },
+            "detail": {
+                "title": "Sesame-Safflower-Radish : Opertaion Number :"
+            },
+            "sesame": "Sesame",
+            "safflower": "Safflower",
+            "radish": "Radish",
+            "dateAdded": "Date d'Ajout",
+            "watered": "Arrosés",
+            "nonWatered": "Non arrosés",
+            "owner": "Propriétaire"
+        }
+    }
+}
+
